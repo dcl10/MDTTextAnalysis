@@ -1,10 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 
+
 class WebHandler():
 
     def __init__(self):
-        self.browser = webdriver.Ie()
+        self.browser = webdriver.Chrome()
 
     def go_to_page(self, url):
         self.browser.get(url)

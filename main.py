@@ -1,4 +1,4 @@
-import sys, re
+import sys
 from getpatientdetails import GetPatientDetails, GetFirstAppointment
 from webformhandler import WebHandler
 from bs4 import BeautifulSoup
@@ -60,4 +60,6 @@ for snumber in snumbers['HospNo']:
 
     except Exception:
         #handler.close_browser()
-        next
+        handler.go_to_page(page)
+
+handler.close_browser()

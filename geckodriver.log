@@ -1,593 +1,104 @@
-1506684912546	geckodriver	INFO	geckodriver 0.19.0
-1506684912550	geckodriver	INFO	Listening on 127.0.0.1:42419
-1506684913696	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.IJIDkewNgH8M"
-1506684914210	Marionette	INFO	Enabled via --marionette
-1506684915565	Marionette	INFO	Listening on port 35164
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506684915769	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506684915833	Marionette	DEBUG	loaded listener.js
-1506684915890	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506684915904	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506684915904	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1506684916057	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen.html"
-1506684916066	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen_files/news.html"
-1506684916082	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen_files/news.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: body_onload is not defined
-1506684916085	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: manualLogin is not defined
-1506684916313	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1/Login_screen.html"
-1506684916368	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1/Login_screen.html"
-1506684916371	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1/Login_screen.html"
-1506684916372	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1/Login_screen.html"
-1506684916402	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=dnsNotFound&u=https%3A//ice.xuhl-tr.nhs.uk/icedesktop/dotnet/icedesktop/login.aspx&c=UTF-8&f=regular&d=Firefox%20can%27t%20find%20the%20server%20at%20ice.xuhl-tr.nhs.uk."
-1506684975753	geckodriver	INFO	geckodriver 0.19.0
-1506684975757	geckodriver	INFO	Listening on 127.0.0.1:34494
-1506684976871	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.4FlemN2L5Y3n"
-1506684977402	Marionette	INFO	Enabled via --marionette
-1506684978763	Marionette	INFO	Listening on port 45884
-1506684978784	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506684978834	Marionette	DEBUG	loaded listener.js
-1506684978863	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506684978877	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506684978878	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1506684978971	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen.html"
-1506684978974	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen_files/news.html"
-1506684978982	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen_files/news.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: body_onload is not defined
-1506684978984	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-1506687293038	geckodriver	INFO	geckodriver 0.19.0
-1506687293041	geckodriver	INFO	Listening on 127.0.0.1:34000
-1506687294176	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ebOMNMJoxEfH"
-1506687294683	Marionette	INFO	Enabled via --marionette
-1506687295836	Marionette	INFO	Listening on port 36662
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506687295992	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506687296062	Marionette	DEBUG	loaded listener.js
-1506687296102	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506687296115	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506687296115	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-JavaScript error: http://127.0.0.1/Patient_list.html, line 31: ReferenceError: Toolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 58: ReferenceError: BuildToolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 92: ReferenceError: SessionTimer is not defined
-1506687296180	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Patient_list.html"
-1506687296200	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Patient_list_files/patientsearch.html"
-1506687296213	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Patient_list_files/patientsearch.html"
-JavaScript error: http://127.0.0.1/Patient_list.html, line 1: ReferenceError: disableBackButton is not defined
-1506687296216	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Patient_list.html"
-JavaScript error: http://127.0.0.1/Patient_list.html, line 31: ReferenceError: Toolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 58: ReferenceError: BuildToolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 92: ReferenceError: SessionTimer is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 1: ReferenceError: disableBackButton is not defined
-[Parent 19834] WARNING: pipe error: Broken pipe: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
-1506687976345	geckodriver	INFO	geckodriver 0.19.0
-1506687976348	geckodriver	INFO	Listening on 127.0.0.1:51835
-1506687977458	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.gjcTy3GWAygN"
-1506687977976	Marionette	INFO	Enabled via --marionette
-1506687979238	Marionette	INFO	Listening on port 41491
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506687979382	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506687979445	Marionette	DEBUG	loaded listener.js
-1506687979475	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506687979495	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506687979495	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-JavaScript error: http://127.0.0.1/Patient_list.html, line 31: ReferenceError: Toolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 58: ReferenceError: BuildToolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 92: ReferenceError: SessionTimer is not defined
-1506687979573	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Patient_list.html"
-1506687979582	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Patient_list_files/patientsearch.html"
-1506687979591	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Patient_list_files/patientsearch.html"
-JavaScript error: http://127.0.0.1/Patient_list.html, line 1: ReferenceError: disableBackButton is not defined
-1506687979593	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Patient_list.html"
-JavaScript error: http://127.0.0.1/Patient_list.html, line 31: ReferenceError: Toolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 58: ReferenceError: BuildToolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 92: ReferenceError: SessionTimer is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 1: ReferenceError: disableBackButton is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 31: ReferenceError: Toolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 58: ReferenceError: BuildToolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 92: ReferenceError: SessionTimer is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 1: ReferenceError: disableBackButton is not defined
-1506688448018	geckodriver	INFO	geckodriver 0.19.0
-1506688448021	geckodriver	INFO	Listening on 127.0.0.1:43539
-1506688449144	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.iLCg74nXT4d7"
-1506688449673	Marionette	INFO	Enabled via --marionette
-1506688451014	Marionette	INFO	Listening on port 40712
-1506688451167	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506688451230	Marionette	DEBUG	loaded listener.js
-1506688451266	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506688451289	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506688451289	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1506688451513	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Patient_list_files/patientsearch.html"
-1506688451517	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Patient_list.html"
-1506688522762	geckodriver	INFO	geckodriver 0.19.0
-1506688522766	geckodriver	INFO	Listening on 127.0.0.1:40119
-1506688523889	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.K8AbwEPzPoa3"
-1506688524414	Marionette	INFO	Enabled via --marionette
-1506688525676	Marionette	INFO	Listening on port 33195
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506688525785	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506688525857	Marionette	DEBUG	loaded listener.js
-1506688525915	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506688525933	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506688525933	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-JavaScript error: http://127.0.0.1/Patient_list.html, line 31: ReferenceError: Toolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 58: ReferenceError: BuildToolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 92: ReferenceError: SessionTimer is not defined
-1506688526006	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Patient_list.html"
-1506688526039	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Patient_list_files/patientsearch.html"
-1506688526055	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Patient_list_files/patientsearch.html"
-JavaScript error: http://127.0.0.1/Patient_list.html, line 1: ReferenceError: disableBackButton is not defined
-1506688526058	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Patient_list.html"
-1506688708829	geckodriver	INFO	geckodriver 0.19.0
-1506688708832	geckodriver	INFO	Listening on 127.0.0.1:36910
-1506688709974	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nuoKEvwgfibj"
-1506688710512	Marionette	INFO	Enabled via --marionette
-1506688711987	Marionette	INFO	Listening on port 41680
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506688712093	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506688712143	Marionette	DEBUG	loaded listener.js
-1506688712171	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506688712186	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506688712186	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-JavaScript error: http://127.0.0.1/Patient_list.html, line 31: ReferenceError: Toolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 58: ReferenceError: BuildToolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 92: ReferenceError: SessionTimer is not defined
-1506688712272	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Patient_list.html"
-1506688712289	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Patient_list_files/patientsearch.html"
-1506688712297	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Patient_list_files/patientsearch.html"
-JavaScript error: http://127.0.0.1/Patient_list.html, line 1: ReferenceError: disableBackButton is not defined
-1506688712299	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Patient_list.html"
-JavaScript error: http://127.0.0.1/Patient_list.html, line 31: ReferenceError: Toolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 58: ReferenceError: BuildToolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 92: ReferenceError: SessionTimer is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 1: ReferenceError: disableBackButton is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 31: ReferenceError: Toolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 58: ReferenceError: BuildToolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 92: ReferenceError: SessionTimer is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 1: ReferenceError: disableBackButton is not defined
-1506688796966	geckodriver	INFO	geckodriver 0.19.0
-1506688796970	geckodriver	INFO	Listening on 127.0.0.1:49934
-1506688798109	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.DrUiwrBhBSgO"
-1506688798632	Marionette	INFO	Enabled via --marionette
-1506688799960	Marionette	INFO	Listening on port 36442
-1506688800125	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506688800177	Marionette	DEBUG	loaded listener.js
-1506688800233	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506688800246	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506688800247	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-JavaScript error: http://127.0.0.1/Patient_list.html, line 31: ReferenceError: Toolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 58: ReferenceError: BuildToolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 92: ReferenceError: SessionTimer is not defined
-1506688800325	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Patient_list.html"
-1506688800369	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Patient_list_files/patientsearch.html"
-1506688800382	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Patient_list_files/patientsearch.html"
-JavaScript error: http://127.0.0.1/Patient_list.html, line 1: ReferenceError: disableBackButton is not defined
-1506688800384	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Patient_list.html"
-JavaScript error: http://127.0.0.1/Patient_list.html, line 31: ReferenceError: Toolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 58: ReferenceError: BuildToolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 92: ReferenceError: SessionTimer is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 1: ReferenceError: disableBackButton is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 31: ReferenceError: Toolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 58: ReferenceError: BuildToolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 92: ReferenceError: SessionTimer is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 1: ReferenceError: disableBackButton is not defined
-1506690382693	geckodriver	INFO	geckodriver 0.19.0
-1506690382697	geckodriver	INFO	Listening on 127.0.0.1:55738
-1506690383837	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.PlmdtjUf2sWL"
-1506690384366	Marionette	INFO	Enabled via --marionette
-1506690385731	Marionette	INFO	Listening on port 40786
-1506690385752	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506690385807	Marionette	DEBUG	loaded listener.js
-1506690385838	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506690385848	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506690385848	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1506690385937	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen.html"
-1506690385940	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen_files/news.html"
-1506690385945	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen_files/news.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: body_onload is not defined
-1506690385947	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: manualLogin is not defined
-1506690386096	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1/Login_screen.html"
-1506690386143	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1/Login_screen.html"
-1506690386145	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1/Login_screen.html"
-1506690386145	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1/Login_screen.html"
-1506690386170	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=dnsNotFound&u=https%3A//ice.xuhl-tr.nhs.uk/icedesktop/dotnet/icedesktop/login.aspx&c=UTF-8&f=regular&d=Firefox%20can%27t%20find%20the%20server%20at%20ice.xuhl-tr.nhs.uk."
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: body_onload is not defined
-1506690403396	geckodriver	INFO	geckodriver 0.19.0
-1506690403400	geckodriver	INFO	Listening on 127.0.0.1:41678
-1506690404514	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.01ylrA8N1X13"
-1506690405041	Marionette	INFO	Enabled via --marionette
-1506690406223	Marionette	INFO	Listening on port 44510
-1506690406239	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506690406312	Marionette	DEBUG	loaded listener.js
-1506690406399	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506690406439	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506690406439	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1506690406534	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen.html"
-1506690406538	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen_files/news.html"
-1506690406547	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen_files/news.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: body_onload is not defined
-1506690406550	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-1506691708187	geckodriver	INFO	geckodriver 0.19.0
-1506691708190	geckodriver	INFO	Listening on 127.0.0.1:60483
-1506691709330	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.FTDmWWuhcaua"
-1506691709841	Marionette	INFO	Enabled via --marionette
-1506691711265	Marionette	INFO	Listening on port 40709
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506691711350	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506691711401	Marionette	DEBUG	loaded listener.js
-1506691711421	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506691711435	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506691711435	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1506691711503	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen.html"
-1506691711511	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen_files/news.html"
-1506691711516	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen_files/news.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: body_onload is not defined
-1506691711518	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: manualLogin is not defined
-1506691711662	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1/Login_screen.html"
-1506691711740	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1/Login_screen.html"
-1506691711747	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1/Login_screen.html"
-1506691711749	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1/Login_screen.html"
-1506691711831	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=dnsNotFound&u=https%3A//ice.xuhl-tr.nhs.uk/icedesktop/dotnet/icedesktop/login.aspx&c=UTF-8&f=regular&d=Firefox%20can%27t%20find%20the%20server%20at%20ice.xuhl-tr.nhs.uk."
-1506691736920	geckodriver	INFO	geckodriver 0.19.0
-1506691736923	geckodriver	INFO	Listening on 127.0.0.1:57463
-1506691738065	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.PNPCFRZnRQV4"
-1506691738606	Marionette	INFO	Enabled via --marionette
-1506691739815	Marionette	INFO	Listening on port 46811
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506691739965	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506691740029	Marionette	DEBUG	loaded listener.js
-1506691740066	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506691740082	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506691740083	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1506691740169	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen.html"
-1506691740182	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen_files/news.html"
-1506691740184	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen_files/news.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: body_onload is not defined
-1506691740186	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-1506691960162	geckodriver	INFO	geckodriver 0.19.0
-1506691960165	geckodriver	INFO	Listening on 127.0.0.1:55909
-1506691961287	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.h0hTV6SE50g1"
-1506691961824	Marionette	INFO	Enabled via --marionette
-1506691963037	Marionette	INFO	Listening on port 42775
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506691963197	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506691963249	Marionette	DEBUG	loaded listener.js
-1506691963294	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506691963311	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506691963312	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1506691963385	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen.html"
-1506691963388	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen_files/news.html"
-1506691963394	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen_files/news.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: body_onload is not defined
-1506691963396	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-1506944582563	geckodriver	INFO	geckodriver 0.19.0
-1506944582578	geckodriver	INFO	Listening on 127.0.0.1:55831
-1506944583714	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nkhID8XoOyji"
-1506944584680	Marionette	INFO	Enabled via --marionette
-1506944586425	Marionette	INFO	Listening on port 33123
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506944586534	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506944586593	Marionette	DEBUG	loaded listener.js
-1506944586616	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506944586626	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506944586626	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1506944586700	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen.html"
-1506944586704	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen_files/news.html"
-1506944586714	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen_files/news.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: body_onload is not defined
-1506944586716	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: manualLogin is not defined
-1506944586891	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1/Login_screen.html"
-1506944586939	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1/Login_screen.html"
-1506944586942	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1/Login_screen.html"
-1506944586950	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1/Login_screen.html"
-1506944587010	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=dnsNotFound&u=https%3A//ice.xuhl-tr.nhs.uk/icedesktop/dotnet/icedesktop/login.aspx&c=UTF-8&f=regular&d=Firefox%20can%27t%20find%20the%20server%20at%20ice.xuhl-tr.nhs.uk."
-1506944601960	geckodriver	INFO	geckodriver 0.19.0
-1506944601963	geckodriver	INFO	Listening on 127.0.0.1:49067
-1506944603076	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.8H4jaASfGrdk"
-1506944603631	Marionette	INFO	Enabled via --marionette
-1506944604936	Marionette	INFO	Listening on port 37651
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506944605093	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506944605170	Marionette	DEBUG	loaded listener.js
-1506944605202	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506944605219	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506944605219	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1506944605318	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen.html"
-1506944605332	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen_files/news.html"
-1506944605347	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen_files/news.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: body_onload is not defined
-1506944605351	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-1506944615370	geckodriver	INFO	geckodriver 0.19.0
-1506944615374	geckodriver	INFO	Listening on 127.0.0.1:45759
-1506944616526	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.OMVTvHCLVC0H"
-1506944617073	Marionette	INFO	Enabled via --marionette
-1506944618582	Marionette	INFO	Listening on port 33256
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506944618645	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506944618709	Marionette	DEBUG	loaded listener.js
-1506944618739	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506944618757	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506944618757	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1506944618842	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen.html"
-1506944618845	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen_files/news.html"
-1506944618855	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen_files/news.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: body_onload is not defined
-1506944618857	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-1506944929267	geckodriver	INFO	geckodriver 0.19.0
-1506944929271	geckodriver	INFO	Listening on 127.0.0.1:56144
-1506944930414	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nGTTiS7PVAQ2"
-1506944930981	Marionette	INFO	Enabled via --marionette
-1506944932365	Marionette	INFO	Listening on port 44953
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506944932539	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506944932641	Marionette	DEBUG	loaded listener.js
-1506944932676	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506944932692	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506944932692	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1506944932698	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Location.html"
-1506944932712	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Location.html"
-1506944948070	geckodriver	INFO	geckodriver 0.19.0
-1506944948073	geckodriver	INFO	Listening on 127.0.0.1:39086
-1506944949193	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.uHfrdJtQ440P"
-1506944949763	Marionette	INFO	Enabled via --marionette
-1506944951136	Marionette	INFO	Listening on port 41988
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506944951304	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506944951369	Marionette	DEBUG	loaded listener.js
-1506944951407	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506944951424	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506944951425	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-JavaScript error: http://127.0.0.1/location.html, line 75: ReferenceError: $ is not defined
-JavaScript error: http://127.0.0.1/location.html, line 177: ReferenceError: $ is not defined
-1506944951543	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/location.html"
-1506944951548	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/location.html"
-1506945083671	geckodriver	INFO	geckodriver 0.19.0
-1506945083675	geckodriver	INFO	Listening on 127.0.0.1:50398
-1506945084787	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.XywUsfHHxu5X"
-1506945085360	Marionette	INFO	Enabled via --marionette
-1506945086905	Marionette	INFO	Listening on port 33699
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506945087061	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506945087151	Marionette	DEBUG	loaded listener.js
-1506945087185	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506945087210	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506945087211	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-JavaScript error: http://127.0.0.1/location.html, line 75: ReferenceError: $ is not defined
-JavaScript error: http://127.0.0.1/location.html, line 177: ReferenceError: $ is not defined
-1506945087360	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/location.html"
-1506945087414	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/location.html"
-JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/demangle.js, line 0: Successfully compiled asm.js code (total compilation time 85ms; unable to cache asm.js in synchronous scripts; try loading asm.js via <script async> or createElement('script'))
-console.error: 
-  Protocol error (noSuchActor): No such actor for ID: server1.conn0.child1/memoryActor12
-JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/netmonitor/src/connector/firefox-connector.js, line 91: TypeError: this.tabTarget is null
-1506945994970	geckodriver	INFO	geckodriver 0.19.0
-1506945994975	geckodriver	INFO	Listening on 127.0.0.1:41034
-1506945996091	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.c8QSq08wdoRN"
-1506945996652	Marionette	INFO	Enabled via --marionette
-1506945998019	Marionette	INFO	Listening on port 34531
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506945998212	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506945998294	Marionette	DEBUG	loaded listener.js
-1506945998332	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506945998342	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506945998343	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-JavaScript error: http://127.0.0.1/location.html, line 75: ReferenceError: $ is not defined
-JavaScript error: http://127.0.0.1/location.html, line 177: ReferenceError: $ is not defined
-1506945998457	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/location.html"
-1506945998468	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/location.html"
-1506946020219	geckodriver	INFO	geckodriver 0.19.0
-1506946020223	geckodriver	INFO	Listening on 127.0.0.1:52684
-1506946021339	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Kq9xvl4yKAn2"
-1506946021894	Marionette	INFO	Enabled via --marionette
-1506946023238	Marionette	INFO	Listening on port 35624
-1506946023401	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506946023496	Marionette	DEBUG	loaded listener.js
-1506946023536	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506946023556	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506946023556	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-JavaScript error: http://127.0.0.1/location.html, line 75: ReferenceError: $ is not defined
-JavaScript error: http://127.0.0.1/location.html, line 177: ReferenceError: $ is not defined
-1506946023670	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/location.html"
-1506946023675	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/location.html"
-1506946024032	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-JavaScript error: http://127.0.0.1/location.html, line 75: ReferenceError: $ is not defined
-JavaScript error: http://127.0.0.1/location.html, line 177: ReferenceError: $ is not defined
-1506946574916	geckodriver	INFO	geckodriver 0.19.0
-1506946574919	geckodriver	INFO	Listening on 127.0.0.1:41950
-1506946576081	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.RXzTMMOdNKOK"
-1506946576625	Marionette	INFO	Enabled via --marionette
-1506946578006	Marionette	INFO	Listening on port 45545
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506946578219	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506946578282	Marionette	DEBUG	loaded listener.js
-1506946578321	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506946578332	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506946578333	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-JavaScript error: http://127.0.0.1/location.html, line 75: ReferenceError: $ is not defined
-JavaScript error: http://127.0.0.1/location.html, line 177: ReferenceError: $ is not defined
-1506946578397	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/location.html"
-1506946578424	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/location.html"
-1506946578753	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
-1506946578779	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1/location.html"
-1506946578787	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1/location.html"
-1506946578788	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1/location.html"
-1506946578793	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/selectlocation.aspx?ID=BBF7341FFFB844A6BDA61956B6A4C67E"
-1506946578801	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/selectlocation.aspx?ID=BBF7341FFFB844A6BDA61956B6A4C67E"
-1506959959398	geckodriver	INFO	geckodriver 0.19.0
-1506959959411	geckodriver	INFO	Listening on 127.0.0.1:51374
-1506959960561	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.m0RrEX5JOybV"
-1506959961498	Marionette	INFO	Enabled via --marionette
-1506959963042	Marionette	INFO	Listening on port 41277
-1506959963093	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506959963193	Marionette	DEBUG	loaded listener.js
-1506959963301	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506959963332	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506959963332	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-JavaScript error: http://127.0.0.1/Clicked_on_patient.html, line 31: ReferenceError: Toolbar is not defined
-JavaScript error: http://127.0.0.1/Clicked_on_patient.html, line 58: ReferenceError: BuildToolbar is not defined
-JavaScript error: http://127.0.0.1/Clicked_on_patient.html, line 92: ReferenceError: SessionTimer is not defined
-1506959963412	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Clicked_on_patient.html"
-1506959963444	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Clicked_on_patient_files/patientsearch.html"
-1506959963456	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Clicked_on_patient_files/patientsearch.html"
-JavaScript error: http://127.0.0.1/Clicked_on_patient.html, line 1: ReferenceError: disableBackButton is not defined
-1506959963458	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Clicked_on_patient.html"
-1506960034108	geckodriver	INFO	geckodriver 0.19.0
-1506960034111	geckodriver	INFO	Listening on 127.0.0.1:40198
-1506960035226	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.FrX8JfbMu3TG"
-1506960035806	Marionette	INFO	Enabled via --marionette
-1506960037124	Marionette	INFO	Listening on port 45954
-1506960037147	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506960037251	Marionette	DEBUG	loaded listener.js
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506960037381	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506960037421	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506960037421	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-JavaScript error: http://127.0.0.1/Patient_list.html, line 31: ReferenceError: Toolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 58: ReferenceError: BuildToolbar is not defined
-JavaScript error: http://127.0.0.1/Patient_list.html, line 92: ReferenceError: SessionTimer is not defined
-1506960037526	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Patient_list.html"
-1506960038120	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Patient_list_files/patientsearch.html"
-1506960038129	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Patient_list_files/patientsearch.html"
-JavaScript error: http://127.0.0.1/Patient_list.html, line 1: ReferenceError: disableBackButton is not defined
-1506960038131	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Patient_list.html"
-1506960096117	geckodriver	INFO	geckodriver 0.19.0
-1506960096121	geckodriver	INFO	Listening on 127.0.0.1:37830
-1506960097235	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.RqpY8237T1fC"
-1506960097789	Marionette	INFO	Enabled via --marionette
-1506960099178	Marionette	INFO	Listening on port 40388
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506960099357	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506960099438	Marionette	DEBUG	loaded listener.js
-1506960099476	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506960099491	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506960099491	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1506960099607	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen.html"
-1506960099623	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen_files/news.html"
-1506960099632	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen_files/news.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: body_onload is not defined
-1506960099635	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen.html"
-1506960775518	geckodriver	INFO	geckodriver 0.19.0
-1506960775522	geckodriver	INFO	Listening on 127.0.0.1:38632
-1506960776639	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.5wSSpNMrLDX8"
-1506960777188	Marionette	INFO	Enabled via --marionette
-1506960778685	Marionette	INFO	Listening on port 43294
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506960778755	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506960778821	Marionette	DEBUG	loaded listener.js
-1506960813256	geckodriver	INFO	geckodriver 0.19.0
-1506960813259	geckodriver	INFO	Listening on 127.0.0.1:60966
-1506960814375	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.G6G3hRQims0a"
-1506960814946	Marionette	INFO	Enabled via --marionette
-1506960816300	Marionette	INFO	Listening on port 43380
-1506960816460	Marionette	WARN	TLS certificate errors will be ignored for this session
-1506960816531	Marionette	DEBUG	loaded listener.js
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506960816574	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506960816615	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506960816615	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1506960816693	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen.html"
-1506960816710	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen_files/news.html"
-1506960816712	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen_files/news.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: body_onload is not defined
-1506960816715	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen.html"
-1506960869425	geckodriver	INFO	geckodriver 0.19.0
-1506960869428	geckodriver	INFO	Listening on 127.0.0.1:39805
-1506960870543	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.NMK6MHtqu6UJ"
-1506960871099	Marionette	INFO	Enabled via --marionette
-1506960872649	Marionette	INFO	Listening on port 33863
-1506960872675	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
-1506960872731	Marionette	DEBUG	loaded listener.js
-1506960872762	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
-1506960872785	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
-1506960872786	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
-1506960872873	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen.html"
-1506960872876	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1/Login_screen_files/news.html"
-1506960872884	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen_files/news.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: body_onload is not defined
-1506960872886	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1/Login_screen.html"
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: captureEnter is not defined
-JavaScript error: http://127.0.0.1/Login_screen.html, line 1: ReferenceError: manualLogin is not defined
-1506960873074	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1/Login_screen.html"
-1506960873114	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1/Login_screen.html"
-1506960873116	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1/Login_screen.html"
-1506960873117	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1/Login_screen.html"
-1506960873143	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=dnsNotFound&u=https%3A//ice.xuhl-tr.nhs.uk/icedesktop/dotnet/icedesktop/login.aspx&c=UTF-8&f=regular&d=Firefox%20can%27t%20find%20the%20server%20at%20ice.xuhl-tr.nhs.uk."
+1507628498298	geckodriver	INFO	geckodriver 0.19.0
+1507628498303	geckodriver	INFO	Listening on 127.0.0.1:35175
+1507628499453	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.U1o9OqlnLQEc"
+1507628499976	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507628500440	Marionette	INFO	Enabled via --marionette
+1507628502261	Marionette	INFO	Listening on port 35194
+1507628502284	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507628502345	Marionette	DEBUG	Register listener.js for window 2147483649
+1507628502472	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507628502489	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507628502489	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507628502500	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1507628502680	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+1507628502995	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1:8000/"
+1507628503133	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1:8000/"
+1507628503134	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1:8000/"
+1507628503139	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/home/"
+1507628503182	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/home/"
+1507628503194	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1:8000/home/"
+1507628503208	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1:8000/home/"
+1507628503244	Marionette	DEBUG	Received DOM event "beforeunload" for "about:neterror?e=unknownProtocolFound&u=hhtp%3A//127.0.0.1%3A8000/patients/add/&c=&f=regular&d=Firefox%20doesn%27t%20know%20how%20to%20open%20this%20address%2C%20because%20one%20of%20the%20following%20protocols%20%28hhtp%29%20isn%27t%20associated%20with%20any%20program%20or%20is%20not%20allowed%20in%20this%20context."
+1507628503273	Marionette	DEBUG	Received DOM event "pagehide" for "about:neterror?e=unknownProtocolFound&u=hhtp%3A//127.0.0.1%3A8000/patients/add/&c=&f=regular&d=Firefox%20doesn%27t%20know%20how%20to%20open%20this%20address%2C%20because%20one%20of%20the%20following%20protocols%20%28hhtp%29%20isn%27t%20associated%20with%20any%20program%20or%20is%20not%20allowed%20in%20this%20context."
+1507628503273	Marionette	DEBUG	Received DOM event "unload" for "about:neterror?e=unknownProtocolFound&u=hhtp%3A//127.0.0.1%3A8000/patients/add/&c=&f=regular&d=Firefox%20doesn%27t%20know%20how%20to%20open%20this%20address%2C%20because%20one%20of%20the%20following%20protocols%20%28hhtp%29%20isn%27t%20associated%20with%20any%20program%20or%20is%20not%20allowed%20in%20this%20context."
+1507628503279	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/home/"
+1507628503315	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/home/"
+1507628503325	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1:8000/home/"
+1507628503326	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1:8000/home/"
+1507628503366	Marionette	DEBUG	Received DOM event "beforeunload" for "about:neterror?e=unknownProtocolFound&u=hhtp%3A//127.0.0.1%3A8000/patients/add/&c=&f=regular&d=Firefox%20doesn%27t%20know%20how%20to%20open%20this%20address%2C%20because%20one%20of%20the%20following%20protocols%20%28hhtp%29%20isn%27t%20associated%20with%20any%20program%20or%20is%20not%20allowed%20in%20this%20context."
+1507628503376	Marionette	DEBUG	Received DOM event "pagehide" for "about:neterror?e=unknownProtocolFound&u=hhtp%3A//127.0.0.1%3A8000/patients/add/&c=&f=regular&d=Firefox%20doesn%27t%20know%20how%20to%20open%20this%20address%2C%20because%20one%20of%20the%20following%20protocols%20%28hhtp%29%20isn%27t%20associated%20with%20any%20program%20or%20is%20not%20allowed%20in%20this%20context."
+1507628503377	Marionette	DEBUG	Received DOM event "unload" for "about:neterror?e=unknownProtocolFound&u=hhtp%3A//127.0.0.1%3A8000/patients/add/&c=&f=regular&d=Firefox%20doesn%27t%20know%20how%20to%20open%20this%20address%2C%20because%20one%20of%20the%20following%20protocols%20%28hhtp%29%20isn%27t%20associated%20with%20any%20program%20or%20is%20not%20allowed%20in%20this%20context."
+1507628503380	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/home/"
+1507628503415	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/home/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1507628573439	geckodriver	INFO	geckodriver 0.19.0
+1507628573443	geckodriver	INFO	Listening on 127.0.0.1:60781
+1507628574587	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.B1Pud2Tfq4hO"
+1507628574788	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507628575152	Marionette	INFO	Enabled via --marionette
+1507628576610	Marionette	INFO	Listening on port 33606
+1507628576708	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507628576752	Marionette	DEBUG	Register listener.js for window 2147483649
+1507628576776	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507628576789	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507628576789	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507628576802	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1507628576926	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+1507628577189	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1:8000/"
+1507628577302	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1:8000/"
+1507628577303	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1:8000/"
+1507628577308	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/home/"
+1507628577341	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/home/"
+1507628577355	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1:8000/home/"
+1507628577370	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1:8000/home/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1507628678208	geckodriver	INFO	geckodriver 0.19.0
+1507628678213	geckodriver	INFO	Listening on 127.0.0.1:51611
+1507628679364	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.IEMdULPHmuRc"
+1507628679566	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507628679912	Marionette	INFO	Enabled via --marionette
+1507628681191	Marionette	INFO	Listening on port 37089
+1507628681382	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507628681454	Marionette	DEBUG	Register listener.js for window 2147483649
+1507628681509	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507628681533	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507628681533	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507628681546	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1507628681681	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+1507628681860	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1:8000/"
+1507628682042	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1:8000/"
+1507628682043	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1:8000/"
+1507628682046	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/home/"
+1507628682075	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/home/"
+1507628682086	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1:8000/home/"
+1507628682095	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1:8000/home/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1507628708949	geckodriver	INFO	geckodriver 0.19.0
+1507628708958	geckodriver	INFO	Listening on 127.0.0.1:35591
+1507628710098	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nHOmzaz8sReM"
+1507628710298	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:65
+1507628710636	Marionette	INFO	Enabled via --marionette
+1507628712122	Marionette	INFO	Listening on port 34771
+1507628712221	Marionette	WARN	TLS certificate errors will be ignored for this session
+1507628712271	Marionette	DEBUG	Register listener.js for window 2147483649
+1507628712291	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1507628712305	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1507628712305	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1507628712315	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1507628712466	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+1507628712662	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1:8000/"
+1507628712798	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1:8000/"
+1507628712798	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1:8000/"
+1507628712803	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/home/"
+1507628712836	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/home/"
+1507628712843	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1:8000/home/"
+1507628712856	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1:8000/home/"
+1507628712856	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1:8000/home/"
+1507628712861	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/patients/add/"
+1507628712896	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/patients/add/"
+1507628712902	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1:8000/patients/add/"
+1507628712922	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1:8000/patients/add/"
+1507628712922	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1:8000/patients/add/"
+1507628712926	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/patients/add/"
+1507628712951	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/patients/add/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping

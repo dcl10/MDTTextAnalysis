@@ -60,6 +60,7 @@ class GetFirstAppointment():
             titles.append(tag.text)
         return titles
 
+    # Note: this method gets the wrong first incident date. This must be found using: [insert program name]
     def first_incident_date(self, parse_lines):
         pattern = re.compile('\d{2}\s\w{3}\s\d{4}')
         string = "".join(parse_lines)
