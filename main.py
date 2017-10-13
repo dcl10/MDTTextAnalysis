@@ -12,13 +12,11 @@ handler = WebHandler()
 
 for snumber in snumbers['HospNo']:
     try:
-        
         handler.go_to_page(page)
         handler.go_to_frame()
         handler.search_patient(snumber)
         handler.click_patient()
         handler.view_details()
-
 
         ### This section is for parsing the patient info from the ICE database ###
 
@@ -56,10 +54,7 @@ for snumber in snumbers['HospNo']:
         dw.writeheader()
         dw.writerow(patient_dict)
 
-        #handler.close_browser()
-
     except Exception:
-        #handler.close_browser()
         handler.go_to_page(page)
 
 handler.close_browser()
