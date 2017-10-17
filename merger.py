@@ -18,25 +18,19 @@ for i in range(len(snumbers)):
     MDT_dict[snumbers[i]] = outcomes[i]
 
 
-parent_dir = r'/home/dcl10/Individual_Research_Project/Data/webscrape'
+#parent_dir = r'/home/dcl10/Individual_Research_Project/Data/webscrape'
+true_false_file = pd.read_csv("../../Data/TrueILD_only_ult_filt.csv")
+last_dict = {true_false_file['HospNo'][i]: true_false_file['Sarcoid'][i]
+             for i in range(len(true_false_file['HospNo']))}
 
-dead_dict = {}
-for tsv_file in glob.glob(os.path.join(parent_dir, '*.tsv')):
-    file = os.path.split(tsv_file)
-    try:
-        df = pd.read_table("../../Data/webscrape/" + file[1], sep="\t")
-        dead_dict.update({df['Hospital Number:'][0]: df['Deceased:'][0]})
-    except UnicodeDecodeError:
-        print(file[1], "is fucked")
+print(last_dict)
+#exit(0)
 
-
-output = open("../../Data/merged3.csv", "w")
-dw = DictWriter(output, fieldnames=["S number", "Outcome", "Deceased"], delimiter=",")
+output = open("../../Data/merged_on_Sarcoid.csv", "w")
+dw = DictWriter(output, fieldnames=["S number", "Outcome", "Sarcoid"], delimiter=",")
 dw.writeheader()
-for i in dead_dict.keys():
+for i in last_dict.keys():
     try:
-        dw.writerow({'S number' : i, 'Outcome' : MDT_dict[i], 'Deceased': dead_dict[i]})
+        dw.writerow({'S number' : i, 'Outcome' : MDT_dict[i], 'Sarcoid': last_dict[i]})
     except KeyError:
         print("Can't find key", i)
-
-
