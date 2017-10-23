@@ -1,8 +1,8 @@
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords, names, words
-import pandas, random, nltk, matplotlib.pyplot as pt
+import pandas, random, nltk, matplotlib.pyplot as pt, numpy as np
 
-df = pandas.read_table("../../Data/merged_on_IPF.csv", sep=",")
+df = pandas.read_table("../../Data/merged_on_Sarcoid.csv", sep=",")
 
 # Refinement by removal of junk words
 sw = list(stopwords.words('english'))
@@ -36,35 +36,66 @@ def find_features(document):
 # Retrieve the MDT outcomes and describe if it is in a patient with or without the condition
 documents = []
 for i in range(len(df['Outcome'])):
-    documents.append((word_tokenize(str(df['Outcome'][i]).lower()), str(df['IPF'][i])))
+    documents.append((word_tokenize(str(df['Outcome'][i]).lower()), str(df['Sarcoid'][i])))
 
 # Shuffle the documents before setting up the machine learning algorithm
 random.shuffle(documents)
 
 # Define the feature sets and then divide them into the training and testing sets
 feature_sets = [(find_features(rev), category) for (rev, category) in documents]
-training_set = feature_sets[:int(len(feature_sets)*0.5)]
-testing_set = feature_sets[int(len(feature_sets)*0.5):]
+training_set = feature_sets[:int(len(feature_sets)*0.8)]
+testing_set = feature_sets[int(len(feature_sets)*0.8):]
 
 nb_classifier = nltk.NaiveBayesClassifier.train(training_set)
 prob_dist_false = []
 prob_dist_true = []
 for i in range(0, len(testing_set[:-1])):
-    #print(nb_classifier.prob_classify(testing_set[i][0]).prob(testing_set[i][1]))
-    if testing_set[i][1] == str(0):
+    if nb_classifier.classify(testing_set[i][0]) == str(0):
         prob_dist_false.append(nb_classifier.prob_classify(testing_set[i][0]).logprob(testing_set[i][1]))
-    elif testing_set[i][1] == str(1):
+    elif nb_classifier.classify(testing_set[i][0]) == str(1):
         prob_dist_true.append(nb_classifier.prob_classify(testing_set[i][0]).logprob(testing_set[i][1]))
 
-pt.scatter(range(len(prob_dist_false)), prob_dist_false, color='red')
-pt.title("Probability distribution for non-IPF")
-pt.xlabel("Patient")
-pt.ylabel("log e Probability")
-pt.savefig("../../Data/Plots/nonIPFscatter.jpg")
+# Method to separate the significant
+def get_sig_hits(log_prob_dists):
+    sig_list = []
+    non_sig_list = []
+    for i in log_prob_dists:
+        if i >= -0.07: sig_list.append(i)
+        else: non_sig_list.append(i)
+    return sig_list, non_sig_list
+
+sig_false, non_sig_false = get_sig_hits(prob_dist_false)
+sig_true, non_sig_true = get_sig_hits(prob_dist_true)
+
+# Create bar chart to compare the number of significant hits
+objects = ('Sig True', 'Non-sig True', 'Sig False', 'Non-sig False')
+y_pos = np.arange(len(objects))
+pt.bar(y_pos, [len(sig_true), len(non_sig_true), len(sig_false), len(non_sig_false)])
+pt.xticks(y_pos, objects)
+pt.title("Comparison of performance of Naive Bayes algorithm")
+pt.xlabel("Category")
+pt.ylabel("Number of Patients")
+#pt.savefig("../../Data/Plots/Sarcoid_bar.jpg")
+pt.show()
 pt.clf()
 
-pt.scatter(range(len(prob_dist_true)), prob_dist_true, color='blue')
-pt.title("Probability distribution for IPF")
+for i in range(len(prob_dist_false)):
+    if prob_dist_false[i] >= -0.07: pt.scatter(i, prob_dist_false[i], color='blue')
+    else: pt.scatter(i, prob_dist_false[i], color='red')
+
+pt.ylabel("Log 2 Probability")
 pt.xlabel("Patient")
-pt.ylabel("log e Probability")
-pt.savefig("../../Data/Plots/IPFscatter.jpg")
+pt.title("Log 2 Probability of correctly predicting not having Sarcoid")
+#pt.savefig("../../Data/Plots/nonSarcoid.jpg")
+pt.show()
+pt.clf()
+
+for i in range(len(prob_dist_true)):
+    if prob_dist_true[i] >= -0.07: pt.scatter(i, prob_dist_true[i], color='blue')
+    else: pt.scatter(i, prob_dist_true[i], color='red')
+
+pt.ylabel("Log 2 Probability")
+pt.xlabel("Patient")
+pt.title("Log 2 Probability of correctly predicting having Sarcoid")
+#pt.savefig("../../Data/Plots/Sarcoid.jpg")
+pt.show()
