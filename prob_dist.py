@@ -1,12 +1,12 @@
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords, names, words
-import pandas, random, nltk, matplotlib.pyplot as pt, numpy as np
+import pandas, random, nltk, matplotlib.pyplot as pt, numpy as np, string
 
 df = pandas.read_table("../../Data/merged_on_Sarcoid.csv", sep=",")
 
 # Refinement by removal of junk words
 sw = list(stopwords.words('english'))
-sw.extend(["?", "<", ">", ",", ".", '+', '-', '(', ')', '%'])
+sw.extend(list(string.punctuation))
 name_list = list(names.words('male.txt'))
 name_list.extend(list(names.words('female.txt'))+['goodman', 'mr', 'mrs', 'dr', 'miss'])
 # Names are capitalised, so not recognised when trying to remove them. Thus make them all lowercase

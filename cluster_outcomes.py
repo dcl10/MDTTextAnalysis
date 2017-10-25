@@ -1,16 +1,16 @@
-import collections, pandas, matplotlib.pyplot as plt, nltk
+import collections, pandas, matplotlib.pyplot as plt, nltk, string
 
 from nltk.corpus import stopwords, names, words
 from nltk.tokenize import word_tokenize
 from sklearn.cluster import KMeans
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-df = pandas.read_csv("../../Data/merged_on_Emphysema.csv", na_filter='')
+df = pandas.read_csv("../../Data/merged3.csv", na_filter='')
 texts = list(df['Outcome'])
 
 # Refinement by removal of junk words
 sw = list(stopwords.words('english'))
-sw.extend(["?", "<", ">", ",", ".", '+', '-', '(', ')', '%'])
+sw.extend(list(string.punctuation))
 name_list = list(names.words('male.txt'))
 name_list.extend(list(names.words('female.txt'))+['goodman', 'mr', 'mrs', 'dr', 'miss'])
 # Names are capitalised, so not recognised when trying to remove them. Thus make them all lowercase
@@ -60,20 +60,32 @@ def cluster_texts(texts, clusters=3):
     return clustering, trans, labels
 
 clusters, coordinates, labels = cluster_texts(texts, clusters=2)
+
+# Some colours for plotting the the data based on which cluster they belong to
 colours = ['red', 'blue', 'green', 'yellow', 'orange', 'pink', 'purple']
 
+# Plot the cluster-distance matrix on a scatter graph
 for i in range(len(labels)):
     plt.scatter(coordinates[i][0], coordinates[i][1], color=colours[labels[i]])
-
 plt.title("Plot of cluster-distance matrix from k means clustering")
 plt.show()
 
+# Sort documents by the cluster they belong to
 cluster_0_docs = [texts[i] for i in clusters[0]]
 cluster_1_docs = [texts[i] for i in clusters[1]]
-print(cluster_0_docs)
-print(cluster_1_docs)
+
+# Get all words for each cluster
 words_0 = []
 for i in cluster_0_docs:
     words_0.extend(word_tokenize(i))
 
-print(words_0)
+words_1 = []
+for i in cluster_1_docs:
+    words_1.extend(word_tokenize(i))
+
+# Generate word frequency distributions for each cluster
+freqdist_0 = nltk.FreqDist(words_0)
+freqdist_1 = nltk.FreqDist(words_1)
+
+print(freqdist_0.most_common(100))
+print(freqdist_1.most_common(100))

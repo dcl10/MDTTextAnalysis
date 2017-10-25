@@ -1,16 +1,18 @@
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords, names, words
-import pandas, random, nltk
 from nltk.classify.scikitlearn import SklearnClassifier
 from sklearn.naive_bayes import BernoulliNB, MultinomialNB
 from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 
+import pandas, random, nltk, string
+
+
 df = pandas.read_table("../../Data/merged_on_Emphysema.csv", sep=",")
 
 # Refinement by removal of junk words
 sw = list(stopwords.words('english'))
-sw.extend(["?", "<", ">", ",", ".", '+', '-', '(', ')', '%'])
+sw.extend(list(string.punctuation))
 name_list = list(names.words('male.txt'))
 name_list.extend(list(names.words('female.txt'))+['goodman', 'mr', 'mrs', 'dr', 'miss'])
 # Names are capitalised, so not recognised when trying to remove them. Thus make them all lowercase
