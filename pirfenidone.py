@@ -5,8 +5,12 @@ from nltk.tokenize import word_tokenize
 from sklearn.cluster import KMeans
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-df = pandas.read_csv("../../Data/the_grand_finale.csv", na_filter='')
+df = pandas.read_csv("../../Data/merged_on_IPF2.csv", na_filter='')
 texts = list(df['Outcome'])
+
+# This file counts the number of IPF patients in each cluster.
+# It's called pirfenidone.py because I used it to investigate the link between
+# pirfenidone mentions in the clusters and the number of IPF patients.
 
 # Refinement by removal of junk words
 sw = list(stopwords.words('english'))
@@ -61,22 +65,24 @@ def cluster_texts(texts, clusters=3):
 
 clusters, coordinates, labels = cluster_texts(texts, clusters=2)
 
-# Some colours for plotting the the data based on which cluster they belong to
-colours = ['red', 'blue', 'green', 'yellow', 'orange', 'pink', 'purple']
-
-# Plot the cluster-distance matrix on a scatter graph
-for i in range(len(labels)):
-    plt.scatter(coordinates[i][0], coordinates[i][1], color=colours[labels[i]])
-plt.title("Plot of cluster-distance matrix from k means clustering")
-plt.show()
 
 # Sort documents by the cluster they belong to
 cluster_0_docs = [texts[i] for i in clusters[0]]
-cluster_0_dead = [df['Deceased'][i] for i in clusters[0]]
+cluster_0_IPF = 0
+for i in clusters[0]:
+    if df['IPF'][i] == 1:
+        cluster_0_IPF +=1
 cluster_1_docs = [texts[i] for i in clusters[1]]
-cluster_1_dead = [df['Deceased'][i] for i in clusters[1]]
+cluster_1_IPF = 0
+for i in clusters[1]:
+    if df['IPF'][i] == 1:
+        cluster_1_IPF +=1
 
-print(len(cluster_0_docs), len(cluster_1_docs))
+print(cluster_0_IPF, len(clusters[0]))
+print(cluster_1_IPF, len(clusters[1]))
+#exit(0)
+
+
 
 # Get all words for each cluster
 words_0 = []
@@ -91,18 +97,5 @@ for i in cluster_1_docs:
 freqdist_0 = nltk.FreqDist(words_0)
 freqdist_1 = nltk.FreqDist(words_1)
 
-#print(len(freqdist_0.keys()), freqdist_0.most_common(500))
-#print(len(freqdist_1.keys()), freqdist_1.most_common(500))
-#exit(0)
-
-df2 = pandas.read_csv("datemerged.csv")
-date_dict0 = {df2['S number'][i]: df2['dateMDT'][i] for i in range(len(df2['S number'][:]))}
-cluster0_dates = []
-for i in clusters[0]:
-    cluster0_dates.append(date_dict0[df['S number'][i]])
-#print(cluster0_dates)
-
-cluster1_dates = []
-for i in clusters[1]:
-    cluster1_dates.append(date_dict0[df['S number'][i]])
-print(cluster1_dates)
+print(len(freqdist_0.keys()), freqdist_0.most_common(100))
+print(len(freqdist_1.keys()), freqdist_1.most_common(100))

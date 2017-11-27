@@ -2,7 +2,7 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords, names, words
 import pandas, random, nltk, matplotlib.pyplot as pt, numpy as np, string
 
-df = pandas.read_table("../../Data/merged_on_Sarcoid.csv", sep=",")
+df = pandas.read_table("../../Data/merged_on_Idiopathic.csv", sep=",")
 
 # Refinement by removal of junk words
 sw = list(stopwords.words('english'))
@@ -36,7 +36,7 @@ def find_features(document):
 # Retrieve the MDT outcomes and describe if it is in a patient with or without the condition
 documents = []
 for i in range(len(df['Outcome'])):
-    documents.append((word_tokenize(str(df['Outcome'][i]).lower()), str(df['Sarcoid'][i])))
+    documents.append((word_tokenize(str(df['Outcome'][i]).lower()), str(df['Idiopathic'][i])))
 
 # Shuffle the documents before setting up the machine learning algorithm
 random.shuffle(documents)
@@ -72,10 +72,10 @@ objects = ('Sig True', 'Non-sig True', 'Sig False', 'Non-sig False')
 y_pos = np.arange(len(objects))
 pt.bar(y_pos, [len(sig_true), len(non_sig_true), len(sig_false), len(non_sig_false)])
 pt.xticks(y_pos, objects)
-pt.title("Comparison of performance of Naive Bayes algorithm")
+pt.title("Comparison of performance of Naive Bayes algorithm\non predicting Idiopathic")
 pt.xlabel("Category")
 pt.ylabel("Number of Patients")
-#pt.savefig("../../Data/Plots/Sarcoid_bar.jpg")
+#pt.savefig("../../Data/Plots/Idiopathic_bar.jpg")
 pt.show()
 pt.clf()
 
@@ -85,8 +85,8 @@ for i in range(len(prob_dist_false)):
 
 pt.ylabel("Log 2 Probability")
 pt.xlabel("Patient")
-pt.title("Log 2 Probability of correctly predicting not having Sarcoid")
-#pt.savefig("../../Data/Plots/nonSarcoid.jpg")
+pt.title("Log 2 Probability of correctly predicting not having Idiopathic")
+#pt.savefig("../../Data/Plots/nonIdiopathic.jpg")
 pt.show()
 pt.clf()
 
@@ -96,6 +96,6 @@ for i in range(len(prob_dist_true)):
 
 pt.ylabel("Log 2 Probability")
 pt.xlabel("Patient")
-pt.title("Log 2 Probability of correctly predicting having Sarcoid")
-#pt.savefig("../../Data/Plots/Sarcoid.jpg")
+pt.title("Log 2 Probability of correctly predicting having Idiopathic")
+#pt.savefig("../../Data/Plots/Idiopathic.jpg")
 pt.show()
